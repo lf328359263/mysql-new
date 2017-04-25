@@ -1,0 +1,3 @@
+main	[2017-04-11 09:32:52][com.tuyoo.mysql.action.MySQLAction] 执行查询： select day, platform_id, type, sum(value) value from regress_count where day = '2017-04-10' and type in ('123','124') and platform_id > 0 and product_id > 0 and game_id = '-1' and channel_id > 0 and product_nickname > 0 group by day, platform_id, type
+main	[2017-04-11 09:32:52][com.tuyoo.mysql.action.MySQLAction] 关闭连接。。。
+main	[2017-04-11 09:32:52][com.tuyoo.mysql.action.MySQLAction] 连接已关闭。。。
